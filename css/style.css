@@ -177,13 +177,16 @@ Responsive media queries
 }
 
 .about-text p {
-    color: #444;
+    color: rgb(197, 192, 192);
+    background: rgba(94, 88, 88, 0.836)
 }
 
 .abt-list li {
     padding: 5px 0px;
     font-size: 18px;
     font-weight: 400;
+    color: rgb(197, 192, 192);
+    background: rgba(94, 88, 88, 0.836)
 }
 
 #portfolio {
@@ -207,7 +210,7 @@ Responsive media queries
 }
 
 .test-sec blockquote {
-    background: #eee;
+    background: rgba(102, 100, 100, 0.37);
     display: block;
     font-size: 14px;
     line-height: 20px;
@@ -220,7 +223,7 @@ Responsive media queries
     position: absolute;
     bottom: -14px;
     margin-left: 10px;
-    border-top: 14px solid #eee;
+    border-top: 14px solid rgba(102, 100, 100, 0.37);
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
 }
@@ -229,7 +232,7 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid RGBA(0, 0, 0, 0.18);
+    border-left: 5px solid rgba(102, 100, 100, 0.37);
 }
 
 .test-sec .carousel-info span {
