@@ -1,8 +1,5 @@
 /*
     Theme Name: Laura
-    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
 */
 
 body {
@@ -113,7 +110,7 @@ Responsive media queries
 }
 
 .bg-color {
-    background-color: RGBA(0, 0, 0, 0.67);
+    background-color: RGBA(0, 0, 0, 0.50);
     min-height: 650px;
 }
 
