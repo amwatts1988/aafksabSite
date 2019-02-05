@@ -59,6 +59,13 @@ Responsive media queries
     position: relative;
 }
 
+.header-sh {
+    background: url('../img/Work-PANO.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 80px;
+    position: relative;
+}
+
 .navbar-default {
     background-color: transparent;
     border: 0px;
@@ -114,7 +121,9 @@ Responsive media queries
     min-height: 650px;
 }
 
+/*
 .navbar-border {}
+*/
 
 .banner-text {
     border-left: 5px solid #BE2525;
@@ -176,6 +185,7 @@ Responsive media queries
     font-size: 24px;
 }
 
+/*
 .about-text p {
     color: rgb(197, 192, 192);
     background: rgba(94, 88, 88, 0.836)
@@ -187,6 +197,21 @@ Responsive media queries
     font-weight: 400;
     color: rgb(197, 192, 192);
     background: rgba(94, 88, 88, 0.836)
+}
+*/
+
+.about-text p {
+    color: rgb(197, 192, 192);
+    background: rgba(94, 88, 88, 1);
+    border-radius: 15px;
+    padding: 8px 8px;
+}
+
+.abt-list li {
+    color: rgb(197, 192, 192);
+    background: rgba(94, 88, 88, 1);
+    border-radius: 15px;
+    padding: 6px px;
 }
 
 #portfolio {
@@ -294,6 +319,9 @@ blockquote {
 footer {
     padding: 40px 0;
     background: #F2F3EB;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer a {
@@ -438,4 +466,71 @@ Responsive media queries
     .title-text {
         margin-bottom: 15px;
     }
+}
+
+#Featured {
+    background: rgb(5, 2, 0, .2);
+    background-size: relative;
+    margin-bottom: -10px;
+    min-height: 750px;
+    
+}
+/* article Thumbnaile image -- responsive */
+/* image thumbnail */
+.thumb {
+    display: block;
+	width: 100%;
+	margin: 0;
+}
+
+/* Style to article Author */
+.by-author {
+	font-style: italic;
+	line-height: 1.3;
+	color: #aab6aa;
+}
+
+/* Main Article [Module]
+-------------------------------------
+* Featured Article Thumbnail
+* have a image and a text title.
+*/
+.featured-article {
+	width: 482px;
+	height: 350px;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.featured-article .block-title {
+	/* Position & Box Model */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	/* background */
+	background: rgba(0,0,0,0.7);
+	/* Width/Height */
+	padding: .5em;
+	width: 100%;
+	/* Text color */
+	color: #fff;
+}
+
+.featured-article .block-title h2 {
+	margin: 0;
+}
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+*/
+
+.main-list {
+	padding-left: .5em;
+}
+
+.main-list .media {
+	padding-bottom: 1.1em;
+	border-bottom: 1px solid #e8e8e8;
 }
