@@ -62,7 +62,7 @@ Responsive media queries
 .header-sh {
     background: url('../img/Work-PANO.jpg') no-repeat fixed;
     background-size: cover;
-    height: 80px;
+    height: 110px;
     position: relative;
 }
 
@@ -112,13 +112,14 @@ Responsive media queries
 }
 
 .top-nav-collapse {
-    padding: 0;
+    padding: 10;
     background: rgba(50, 60, 70, 0.9);
 }
 
 .bg-color {
     background-color: RGBA(0, 0, 0, 0.50);
-    min-height: 650px;
+    min-height: 800px;
+    position: relative;
 }
 
 /*
