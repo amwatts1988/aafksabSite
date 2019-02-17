@@ -59,10 +59,10 @@ Responsive media queries
     position: relative;
 }
 
-.header-sh {
-    background: url('../img/Work-PANO.jpg') no-repeat fixed;
+.header-article {
+    background: rgba(50, 60, 70, 0.9);
     background-size: cover;
-    height: 110px;
+    height: 130px;
     position: relative;
 }
 
@@ -118,8 +118,15 @@ Responsive media queries
 
 .bg-color {
     background-color: RGBA(0, 0, 0, 0.50);
-    min-height: 800px;
+    min-height: 650px;
     position: relative;
+}
+
+.bg-color-article{
+    background-color: RGBA(0, 0, 0, 0.50);
+    min-height: 700px;
+    position: relative;
+    padding: 60px 0px;
 }
 
 /*
@@ -171,7 +178,17 @@ Responsive media queries
     margin-bottom: -10px;
 }
 
+#article {
+    background: url('../img/Work-PANO.jpg') no-repeat fixed;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
 .section-padding {
+    padding: 60px 0px;
+}
+
+.section-padding-sh {
     padding: 60px 0px;
 }
 

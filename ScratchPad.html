@@ -13,13 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <div class="header-sh">
+<body id="myPage" data-spy="scroll" data-target=".top-nav-collapse" data-offset="60">
+    <div class="header-article">
         <div class="bg-color">
             <header id="main-header">
-                <nav class="navbar navbar-default navbar-expand-lg">
+                <nav class="navbar navbar-default navbar-expand-lg navbar-fixed-top top-nav-collapse">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Nav">
@@ -31,103 +32,73 @@
                         </div>
                         <div class="collapse navbar-collapse" id="Nav">
                             <ul class="nav navbar-nav navbar-right navbar-border">
-                                <li class="active"><a href="#main-header">Home</a></li>
-                                <li><a href="index.html#about">About</a></li>
-                                <li><a href="index.html#Upcoming">Upcoming</a></li>
-                                <li><a href="index.html#Projects">Projects</a></li>
-                                </ul>
-                            </div>
+                            <li class="active"><a href="#main-header">Home</a></li>
+                            <li><a href="../#about">About</a></li>
+                            <li><a href="../#Upcoming">Upcoming</a></li>
+                            <li><a href="../#Projects">Projects</a></li>
+                            </ul>
                         </div>
-                    </nav>
-                </header>
-            </div>
+                    </div>
+                </nav>
+            </header>
         </div>
     </div>
     <!-- start first section -->
-    <section id="Featured" class="section-padding wow fadeIn delay-05s">
-    <!-- do not edit above this line -->
-    <!-- do not edit above this line -->
-    <div class="container">
-        <div class="row">
-            <h1>Article Thumbnails</h1>
-            <p>Use it to your news site, feature a article.</p>
-        </div>
-            <div class="row">
-                <div class="col-md-5 col-lg-5">
-                    <!-- artigo em destaque -->
-                    <div class="featured-article">
-                        <a href="#">
-                            <img src="https://placehold.it/482x350" alt="" class="thumb">
-                        </a>
-                        <div class="block-title">
-                            <h2>Lorem ipsum dolor asit amet</h2>
-                            <p class="by-author"><small>By Jhon Doe</small></p>
+    <section id="article" class="wow fadeIn delay-05s">
+        <div class="bg-color-article">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-right">
+                        <h2 class="title-text">
+                            Meet<br><span class="deco">Alex</span> Watts
+                        </h2>
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <div class="about-text">
+                            <p>I have worked in IT for almost a decade. I started with cell phone repair and modding. After that my focus quickly changed to business networks.</p>
+                            <p>I worked at a small Medical Facility until I fell into a small MSP where the majority of my knowledge has been cultivated. I now spend my time at Kiewit growing the security posture and learning anything that I can get ahold of!</p>
+                            <p>Before I started working in IT, PC building and home networking was a hobby of mine. At the time I worked in a machine shop and went to school for Manufacturing Engineering at SCC-Milford. Machining was simply not my passion. What I did learn during this time in my life was invaluable. Understanding how the world is made was always a goal of mine growing up.</p>
+                            <p>Currently my focus is as follows:</p>
+                            <ul class="abt-list">
+                                <li>- Threat hunting inside of the O365 platform</li>
+                                <li>- Leveraging an ELK stack implementation for investigation</li>
+                                <li>- Security research and root cause analysis</li>
+                                <li>- Security Engineering with hardware and software</li>
+                                <li>- I will be attending PWn2Own 2019 with a few exploits, targets include Tesla, and Microsoft</li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- /.featured-article -->
                 </div>
-                <div class="col-md-7 col-lg-7">
-                    <ul class="media-list main-list">
-                        <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="https://placehold.it/150x90" alt="...">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-                            <p class="by-author">By Jhon Doe</p>
-                        </div>
-                        </li>
-                        <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="https://placehold.it/150x90" alt="...">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-                            <p class="by-author">By Jhon Doe</p>
-                        </div>
-                        </li>
-                        <li class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object" src="https://placehold.it/150x90" alt="...">
-                        </a>
-                        <div class="media-body">
-                            <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-                            <p class="by-author">By Jhon Doe</p>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
-    <!-- do not edit below this line -->
-    <!-- do not edit below this line -->
     </section>
-        <!-- end section, start footer-->
-        <footer class="footer-2 text-center-xs bg--white">
-            <div class="container">
-                <!--end row-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer">
-                            © Watts Tech llc
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <ul class="social-list">
-                            <li>
-                                <a href="https://github.com/amwatts1988"><i class="fa fa-github-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/alex-watts-7215a13a"><i class="fa fa-linkedin-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/mod_dr/"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:aafksab@gmail.com"><i class="fa fa-google"></i></a>
-                            </li>
-                        </ul>
+    <!-- end section, start footer-->
+    <footer class="footer-2 text-center-xs bg--white">
+        <div class="container">
+            <!--end row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer">
+                        © Watts Tech llc
                     </div>
                 </div>
+                <div class="col-md-6 text-right">
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://github.com/amwatts1988"><i class="fa fa-github-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alex-watts-7215a13a"><i class="fa fa-linkedin-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mod_dr/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:aafksab@gmail.com"><i class="fa fa-google"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <!--end row-->
         </div>
     </footer>
