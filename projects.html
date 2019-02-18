@@ -13,13 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <div class="header-sh">
+<body id="myPage" data-spy="scroll" data-target=".top-nav-collapse" data-offset="60">
+    <div class="header-article">
         <div class="bg-color">
             <header id="main-header">
-                <nav class="navbar navbar-default navbar-expand-lg">
+                <nav class="navbar navbar-default navbar-expand-lg navbar-fixed-top top-nav-collapse">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Nav">
@@ -31,96 +32,206 @@
                         </div>
                         <div class="collapse navbar-collapse" id="Nav">
                             <ul class="nav navbar-nav navbar-right navbar-border">
-                                <li class="active"><a href="#main-header">Home</a></li>
-                                <li><a href="../#about">About</a></li>
-                                <li><a href="../#Upcoming">Upcoming</a></li>
-                                <li><a href="../#Projects">Projects</a></li>
-                                </ul>
-                            </div>
+                            <li class="active"><a href="#main-header">Home</a></li>
+                            <li><a href="../#about">About</a></li>
+                            <li><a href="../#Upcoming">Upcoming</a></li>
+                            <li><a href="../#Projects">Projects</a></li>
+                            </ul>
                         </div>
-                    </nav>
-                </header>
-            </div>
+                    </div>
+                </nav>
+            </header>
         </div>
     </div>
     <!-- start first section -->
-    <section id="Featured" class="section-padding wow fadeIn delay-05s">
-    <!-- do not edit above this line -->
-    <!-- do not edit above this line -->
-    <div class="container">
-        <div class="row">
-            <h1>Article Thumbnails</h1>
-            <p>Use it to your news site, feature a article.</p>
-        </div>
-            <div class="row">
-                <div class="col-md-5 col-lg-5">
-                    <!-- start featured article -->
-                    <div class="featured-article">
-                        <a href="#">
-                            <img src="https://placehold.it/482x350" alt="" class="thumb">
-                        </a>
-                        <div class="block-title">
-                            <h2>Lorem ipsum dolor asit amet</h2>
-                            <p class="by-author"><small>By Jhon Doe</small></p>
+    <section id="article" class="wow fadeIn delay-05s">
+        <div class="bg-color-article">
+            <div class="container bg-color-article-section">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <h2 class="title-text">
+                            CanSecWest<br><span class="deco">2019</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row article-img">
+                    <div class="col-md-6 text-left article-img-sh-end">
+                        <div class="test-sec">
+                            <img src="img/carhackers_cover.png" class="img-responsive article-img-sh">
+                            <blockquote>
+                                <p>Click the image and you can download the book in several different formats. The license of the books is under a Creative Commons Attribution-Noncommercial-ShareAlike license, which lets you share it, remix it, and share your remixes, provided that you do so on a noncommercial basis. . </p>
+                            </blockquote>               
                         </div>
                     </div>
-                    <!-- /.featured-article -->
-                </div>
-                <div class="col-md-7 col-lg-7">
-                    <p style="margin-bottom: 0in; line-height: 100%;">&nbsp;</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I will be going to CanSecWest in March to participate in Pwn2Own 2019. My main focus will be the Tesla Model 3 challenge. I will also be bringing something for one of the Microsoft challenges as well.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">My partner will be my Brother in law Adam, he is a developer and specializes in the .Net Framework in a production environment.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">&nbsp;</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I plan to build an Arduino Can-Bus interface and a harness to connect into the Can-Bus network on the Model 3. I needed to get up to speed on Arduino and one of my buddies gave me an Uno R3. Now I needed some parts to tinker with and the Can-Bus shield from ElecFreaks.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">&nbsp;</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I ordered a <a href="https://www.sunfounder.com/learn/lcd1602-starter-kit/lesson-9-lcd1602-lcd1602-starter-kit.html">&ldquo;Sun Founder lcd106 starter kit&rdquo;</a> and needed to complete the &ldquo;Hello, World!&rdquo; project first.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I ended up completing 8 of the projects from this kit to gain a solid base of info and debugging errors.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I had to change a few of the pins around because my hardware was slightly different, but the end result was the same for each project. After I thought I had got a feel for Arduino I decided to extend the sketch with a scrolling message and a clock based off of a sub routine that counts milliseconds. I will be storing this sketch on my GitHub.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">&nbsp;</p>
-<p style="margin-bottom: 0in; line-height: 100%;">While my iron was still hot from the Sun Founder kit I also finished soldering the header pins on the Can-Bus board. I did have to redo a few her and there where I added a little too much solder.. lol I really like the solder sucker tool and would highly recommend one if, like me, you get a little heavy handed with the solder or tin. The board was purchased from <a href="https://www.elecfreaks.com/wiki/index.php?title=CAN-BUS_Shield">ElecFreaks</a>.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">&nbsp;</p>
-<p style="margin-bottom: 0in; line-height: 100%;">For this project I decided to try ChipQuick .8mm no clean flux core solder.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">I have worked with some small electronics in the past so this was not too difficult of a task to begin with. I will note that the ChipQuick solder was pretty effortless to use in this application. I will be building a custom Cable to connect to the Can-Bus network via a non standard access port, but instead will use wire crimp ends with a little bit of silver solder instead. More to come on this project after I have completed the interface programming. </p>
-<p style="margin-bottom: 0in; line-height: 100%;">To help me in my goal of Pwning a Tesla I have purchased <a href="https://nostarch.com/carhacking">&ldquo;The Car Hackers Handbook&rdquo;</a> in paper back. This seems to be the most comprehensive manual on the subject. I do have a PDF version of this as well. But some books just need to be physical.</p>
-<p style="margin-bottom: 0in; line-height: 100%;">Now, on to programming the interface for use with the python module. I will start with this <a href="https://www.instructables.com/id/CAN-Bus-Sniffing-and-Broadcasting-with-Arduino/">Instructables</a> guide and work from there. I have a desired goal of using the built in linux driver with Python module to create some custom scripts and tools to interact with the ECM and other systems. I plan to build a logger, tuner, fuzzer, and payload injector. </p>
-<p style="margin-bottom: 0in; line-height: 100%;">This is my first time programming a micro-controller myself. However I have built projects in the past from existing projects usually with a few mods, so this should be a fun and challenging adventure.</p>
-
+                    <div class="col-md-6 text-left article-img-sh-end">
+                        <div class="article-text">
+                        <p style="margin-bottom: 0in; line-height: 100%">I will be going to
+                            CanSecWest in March to participate in Pwn2Own 2019. My main focus
+                            will be the Tesla Model 3 challenge. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">Also I'll be
+                            bringing something for one of the Microsoft challenges, if I cana get
+                            it working. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">My partner will be
+                            my Brother in law Adam, he is a developer and specializes in the .Net
+                            Framework in a production environment.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I plan to build an
+                            Arduino Can-Bus interface and a harness to connect into the Can-Bus
+                            network on the Model 3. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">Than I needed to get
+                            up to speed on Arduino and one of my buddies gave me an Uno R3. From
+                            Amazon I ordered some parts to tinker with,</p>
+                            <p style="margin-bottom: 0in; line-height: 100%">and the Can-Bus
+                            shield from ElecFreaks.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">My order included a
+                            <a href="https://www.sunfounder.com/learn/lcd1602-starter-kit/lesson-9-lcd1602-lcd1602-starter-kit.html">“Sun
+                            Founder lcd106 starter kit”</a> so I started the “Hello, World!”
+                            project first. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I ended up
+                            completing 8 of the projects from this kit to gain a solid base of
+                            info and debugging errors.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%">One snag I ran into
+                            was a change to a few of the pins because my hardware was slightly
+                            different</p>
+                            <p style="margin-bottom: 0in; line-height: 100%">The end result was
+                            the same for each project. After I thought I had got a feel for
+                            Arduino I decided 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">to extend the sketch
+                            with a scrolling message and a clock based off of a sub routine that
+                            counts milliseconds. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I will be storing
+                            this sketch on my GitHub linked below.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">While my iron was
+                            still hot from the Sun Founder kit I also finished soldering the
+                            header pins on the Can-Bus board. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I had to redo a few
+                            her and there because I added a little too much solder.. lol 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I really like the
+                            solder sucker tool 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">and would highly
+                            recommend one if, like me, you get a little heavy handed with the
+                            solder or tin. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">The board was
+                            purchased from <a href="https://www.elecfreaks.com/wiki/index.php?title=CAN-BUS_Shield">ElecFreaks</a>.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">For this project I
+                            decided to try ChipQuick .8mm no clean flux core solder.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I have worked with
+                            some small electronics in the past so this was not too difficult of a
+                            task to begin with. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">Note: The ChipQuick
+                            solder was pretty effortless to use in this application. I will be
+                            building a custom Cable 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">to connect to the
+                            Can-Bus network via a non standard access port, but instead will use
+                            wire crimp ends with a 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">little bit of silver
+                            solder instead. More to come on this project after I have completed
+                            the interface programming.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">To help me in my
+                            goal of Pwning a Tesla I have purchased <a href="https://nostarch.com/carhacking">“The
+                            Car Hackers Handbook”</a>  in paper back. Definitely worth the
+                            read, and if you have never checked out No Starch Press I highly
+                            suggest you do so!</p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">Now, on to
+                            programming the interface for use with the python module. I will
+                            start with this <a href="https://www.instructables.com/id/CAN-Bus-Sniffing-and-Broadcasting-with-Arduino/">Instructables</a>
+                            guide 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">and work from there.
+                            I have a desired goal of using the built in linux driver with Python
+                            module to create some 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">custom scripts and
+                            tools to interact with the ECM and other systems. I plan to build a
+                            logger, tuner, fuzzer, 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">and finally, a
+                            payload injector. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">This is my first
+                            time programming a micro-controller solo. However I have built
+                            projects in the past from existing 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">projects usually
+                            with a few mods, so this should be a fun and challenging adventure. 
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%"><br/>
+                            
+                            </p>
+                            <p style="margin-bottom: 0in; line-height: 100%">I will try to
+                            complete a post a week but I wouldnt be too suprised if I get a
+                            little behind.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%">Until next time, and
+                            have a great week!</p>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    <!-- do not edit below this line -->
-    <!-- do not edit below this line -->
     </section>
-</body>
-        <!-- end section, start footer-->
-        <footer class="footer-2 text-center-xs bg--white">
-            <div class="container">
-                <!--end row-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer">
-                            © Watts Tech llc
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <ul class="social-list">
-                            <li>
-                                <a href="https://github.com/amwatts1988"><i class="fa fa-github-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/alex-watts-7215a13a"><i class="fa fa-linkedin-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/mod_dr/"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:aafksab@gmail.com"><i class="fa fa-google"></i></a>
-                            </li>
-                        </ul>
+    <!-- end section, start footer-->
+    <footer class="footer-2 text-center-xs bg--white">
+        <div class="container">
+            <!--end row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer">
+                        © Watts Tech llc
                     </div>
                 </div>
+                <div class="col-md-6 text-right">
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://github.com/amwatts1988"><i class="fa fa-github-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alex-watts-7215a13a"><i class="fa fa-linkedin-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mod_dr/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:aafksab@gmail.com"><i class="fa fa-google"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <!--end row-->
         </div>
     </footer>
@@ -132,6 +243,6 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
 
-
+</body>
 
 </html>
