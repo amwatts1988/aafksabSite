@@ -127,7 +127,7 @@ Responsive media queries
     min-height: 700px;
     position: relative;
     padding-top: 20px;
-    padding-bottom: 4px;
+    padding-bottom: -10px;
 }
 
 .bg-color-article-section{
@@ -135,7 +135,7 @@ Responsive media queries
     min-height: 700px;
     position: relative;
     border-radius: 15px;
-    padding: 0px 16px 16px 16px;
+    padding-bottom: -10px;
 }
 
 /*
@@ -406,6 +406,7 @@ footer {
     line-height: 1.625em;
     margin-top: 0;
     margin-bottom: 1.625em;
+    padding-top: 2em;
     padding-right: 10px;
 }
 
@@ -525,6 +526,15 @@ Responsive media queries
     }
 }
 
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+
+DELETE AS SOON AS ALL REFS ARE
+TAKEN CARE OF!!
+
+*/
 #Featured {
     background: rgb(5, 2, 0, .2);
     background-size: relative;
@@ -577,12 +587,6 @@ Responsive media queries
 .featured-article .block-title h2 {
 	margin: 0;
 }
-
-/* Featured Articles List [BS3]
---------------------------------------------
-* show the last 3 articles post
-*/
-
 .main-list {
 	padding-left: .5em;
 }
@@ -590,4 +594,66 @@ Responsive media queries
 .main-list .media {
 	padding-bottom: 1.1em;
 	border-bottom: 1px solid #e8e8e8;
+}
+
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+
+DELETE AS SOON AS ALL REFS ARE
+TAKEN CARE OF!!
+
+*/
+
+/* editorial
+--------------------------------------------
+*/
+
+#Editorial {
+    -webkit-text-size-adjust: 100%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.edit-main {
+    flex: 0 0 58.33333%;
+    padding-left: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: .1875rem;
+    padding-right: .1875rem;
+    background: #999
+}
+
+.edit-header {
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;
+}
+.edit-title {
+    margin-bottom: 0;
+    font-weight: normal;
+    color: rgb(185, 51, 51);
+}
+
+.edit-description {
+    color: #999;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.post-article {
+    margin: 1em;
+    padding: 3em;
+    text-align: justify;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.post-article p {
+    text-align: justify;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
